@@ -1,5 +1,5 @@
 # File: get_wiki_table.py
-# A simple program getting some table from wiki page
+# A simple program getting some tables from wiki page
 
 import wikipedia
 import pandas as pd
@@ -19,4 +19,5 @@ def table_wiki(name):
     return df
 
 
-print(table_wiki("List of countries by number of Internet users"))
+if __name__ == "__main__":
+    print(table_wiki("List of countries by number of Internet users"))

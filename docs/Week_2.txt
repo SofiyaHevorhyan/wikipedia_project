@@ -1,0 +1,26 @@
+Тиждень 2
+19.02 – 24.02.18
+Софія Геворгян
+
+Вирішені проблеми:
+1)	Визначення і опис проблематики курсової роботи
+2)	Визначення обраного АРІ – MediaWiki АРІ
+3)	Опис проекту
+4)	Написання прикладів використання декількох функцій бібліотеки wikipedia
+
+Опрацьовані питання і матеріали:
+1)	Основна документація до АРІ Вікіпедії
+	• Принцип формування URL-адреси
+	• Функції різноманітних параметрів URL-адреси
+	• Принцип використання URL-адреси для отримання даних про вікісторінку
+		https://www.mediawiki.org/wiki/API:Main_page
+		https://www.mediawiki.org/wiki/Wikidata_query_service
+		https://www.mediawiki.org/wiki/API:Info
+		http://2015.compjour.org/tutorials/exploring-wikipedia-api-intro/
+		http://2015.compjour.org/tutorials/exploring-wikipedia-api-via-python/
+2)	Розбір функціональних можливостей АРІ
+	• документації функцій до бібліотеки wikipedia
+	• документації помилок, які можуть виникнути
+		https://wikipedia.readthedocs.io/en/latest/quickstart.html
+		https://wikipedia.readthedocs.io/en/latest/code.html
+		https://wikipedia.readthedocs.io/en/latest/genindex.html

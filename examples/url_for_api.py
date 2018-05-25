@@ -1,4 +1,4 @@
-# File: url_rof_api.py
+# File: url_for_api.py
 # A simple program getting the num of watchers of wiki page
 
 import urllib.error
@@ -18,7 +18,7 @@ def use_url(name):
 
     js = json.loads(data)
 
-    f = open("data.json", "w+", encoding="utf-8")
+    f = open("data_pages_example.json", "w+", encoding="utf-8")
     json.dump(js, f, ensure_ascii=False)
     f.close()
 
@@ -29,7 +29,8 @@ def use_url(name):
         print("Sorry. We have no access to the num of watchers of ", name)
 
 
-use_url("Wikipedia")
-use_url("API:Main page")
-use_url("Google")
-use_url("Programming language")
+if __name__ == "__main__":
+    use_url("Wikipedia")
+    use_url("API:Main page")
+    use_url("Google")
+    use_url("Programming language")
