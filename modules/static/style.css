@@ -17,8 +17,8 @@ p {
 }
 
 .btn-group button {
-    background-color: #4CAF50;
-    border: 1px solid green;
+    background-color: darkturquoise;
+    border: 1px solid indigo;
     color: white;
     padding: 20px 48px;
     cursor: pointer;
