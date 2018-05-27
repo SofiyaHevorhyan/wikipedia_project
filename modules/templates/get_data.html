@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wiki Project</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css"/>
+</head>
+
+<body>
+    <h1> Get parameters from user </h1>
+
+    <form action = "http://localhost:5000/data" method="get">
+        <p>Enter the name or give a link:</p>
+        <p><label>
+            <input type="text" name="nm"/>
+        </label></p>
+
+        <p>Enter the num of pages:</p>
+        <p><label>
+            <input type="text" name="num"/>
+        </label></p>
+
+        <p><input name="name" type = "submit" value = "get data" /></p>
+      </form>
+
+</body>
+</html>
