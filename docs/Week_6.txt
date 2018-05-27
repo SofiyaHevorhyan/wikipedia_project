@@ -1,0 +1,20 @@
+Тиждень 6
+19.03 - 25.03.18
+Софія Геворгян
+
+1) Формування запиту для отримання списку сторінок у категорії
+	написання функції для отрмання id та title кожної із сторінок базуючись на отриманій категорії
+	https://www.mediawiki.org/wiki/API:Lists/All#Categorymembers
+
+2) Проблема
+	обмежена кількість запитів на категорію - не більше 500 при набагато більшій кількості сторінок у категорії
+
+3) Знайдено і опрацьовано можливості CatGraph 
+	https://wikitech.wikimedia.org/wiki/Nova_Resource:Catgraph
+	https://en.wikipedia.org/wiki/Wikipedia:FAQ/Categorization#Why_might_a_category_list_not_be_up_to_date?
+	CatGraph - In-memory graph database for Wikipedia category structure, який дозволяє використовувати пошук вглиб по категоріям
+	на вказану глибину
+
+4) Прийнято рішення
+	обрати обмеження по обсягу функціонування програми лише до 500 сторінок у зв'язку з великою кількістю
+	(інколи більше 500 000 певних категорії)
