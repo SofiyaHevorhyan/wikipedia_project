@@ -27,9 +27,12 @@ def login():
 def data():
     choice = request.args.get("name")
     if choice == "get data":
-        return "get the number and link"
+        # get_main_info(1, request.args.get("nm"), request.args.get("num"))
+        info = get_main_info(1, "Claude Monet", 3)
+        return str(info)
     else:
-        return "get image " + choice
+        info = get_main_info(0, choice)
+        return str(info)
 
 
 if __name__ == "__main__":
