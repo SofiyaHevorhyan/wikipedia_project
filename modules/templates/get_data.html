@@ -7,9 +7,9 @@
 </head>
 
 <body>
-    <h1> Get parameters from user </h1>
+    <h1> Specify the parameters of search </h1>
 
-    <form action = "http://localhost:5000/data" method="get">
+    <form action = "data" method="get">
         <p>Enter the name or give a link:</p>
         <p><label>
             <input type="text" name="nm"/>
@@ -20,7 +20,12 @@
             <input type="text" name="num"/>
         </label></p>
 
-        <p><input class="btn-group" name="name" type = "submit" value = "get data" /></p>
+         <div class="btn-group">
+
+             <p><button class="btn-group" name="name" value="get data" type="submit">Get Data</button></p>
+        </div>
+
+
       </form>
 
 </body>
